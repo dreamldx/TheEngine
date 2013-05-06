@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<file type='game' version='1.0'>
+	<game name="testapp" scenemgr=''>
+		<objlists>
+			<objlist ref="obj/basic.xml" />
+		</objlists>
+		<scenes>
+			<scene ref="scene/main.xml" />
+		</scenes>
+	</game>
+</file>

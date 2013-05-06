@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<file type='objlist' version='1.0'>
+	<objlist>
+		<objdef name='displace' type='com.dreamldx.game.opengl.engine.node.DisplaceNode' />
+		<objdef name='box2d' type='com.dreamldx.game.opengl.engine.node.Box2dNode' />
+		<objdef name='box2ddef' type='com.dreamldx.game.opengl.engine.node.Box2dNode' x='50' y='200' r='10' shape='circle' density='10' friction='0.3' bodytype='dynamic'/>
+		<objdef name='plane' type='com.dreamldx.game.opengl.primitives.Plane' />
+		<objdef name='ball' type='com.dreamldx.game.opengl.primitives.Orb' r='20' /> 
+		<objdef name='box' type='com.dreamldx.game.opengl.primitives.Plane' height='20' width='20'/>
+		<objdef name='box2dscene' type='com.dreamldx.game.opengl.engine.scene.Scene' />
+		<objdef name='controller' type='com.dreamldx.game.opengl.engine.controller.KeyboardController' />
+		<objdef name='manipulater' type='com.dreamldx.game.opengl.engine.manipulater.Box2dManipulater' controller='controller' />
+		<objdef name='helloworldtext' type='com.dreamldx.game.opengl.primitives.Text' />
+		<objdef name='basic' type='com.dreamldx.game.opengl.engine.Camera' />
+		<!--objdef name='generator' type='com.dreamldx.game.opengl.generator.ObjectGen' >
+			<template>
+				<object name="root5" ref='box2d' x='95' y='460' height='10' width='10' density='10' friction='0.3' bodytype='dynamic'>
+					<object name='sprit1' ref='plane' height='20' width='20'/>
+				</object>
+			</template>
+		</objdef-->
+	</objlist>
+</file>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<file type='scene' version='1.0'>
+	<scene name='main' root='true' base='box2dscene'>
+		<camera ref='basic' focus='sprit' />
+		<nodes>
+			<object name='helloworld1' ref='helloworldtext' x='10' y='580' text='hello world!' />
+			<object name='helloworld2' ref='helloworldtext' x='10' y='560' text='This is a demo program for engine include box2d' />
+			<object name='helloworld3' ref='helloworldtext' x='10' y='540' text='Press A, D, W to move box around' />
+			<object name='helloworld4' ref='helloworldtext' x='10' y='520' text='Press space to generate more boxes' />
+			
+			<object name='helloworld5' ref='helloworldtext' x='10' y='480' text='Little bit slow... ' />
+			
+			<object name="node1" ref='box2d' x='400' y='0' height='1' width='800' bodytype='static' friction='5'  density='1'>
+				<object name='ground1' ref='plane' height='2' width='800' />
+			</object>
+			
+			<object name="node2" ref='box2d' x='400' y='600' height='1' width='800' bodytype='static' friction='5'  density='1'>
+				<object name='ground2' ref='plane' height='2' width='800' />
+			</object>
+
+			<object name="node3" ref='box2d' x='0' y='300' height='600' width='2' bodytype='static' friction='1'  density='1'>
+				<object name='ground3' ref='plane' height='600' width='2' />
+			</object>
+			
+			<object name="node4" ref='box2d' x='800' y='300' height='600' width='2' bodytype='static' friction='1'  density='1'>
+				<object name='ground4' ref='plane' height='600' width='2' />
+			</object>
+			
+			<object name="sprit" ref='box2d' x='75' y='280' r='30' shape='circle' density='100' friction='0.3' bodytype='dynamic' manipulater='manipulater'>
+				<object name='spritObject' ref='ball' r='60' />
+			</object>
+
+		</nodes>
+	</scene>
+</file>

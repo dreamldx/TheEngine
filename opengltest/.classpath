@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="libs"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="libs/dom4j-1.6.1.jar" sourcepath="C:/Users/Administrator/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar"/>
+	<classpathentry kind="lib" path="libs/jinput.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="opengltest/libs"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="libs/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="libs/jbox2d-library-2.2.1.1.jar" sourcepath="E:/Downloads/jbox2d-2.2.1.1.zip"/>
+	<classpathentry kind="lib" path="libs/gluegen-rt-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="libs/gluegen-rt-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="libs/nativewindow-core.jar"/>
+	<classpathentry kind="lib" path="libs/jogl-core.jar"/>
+	<classpathentry kind="lib" path="libs/newt-core.jar"/>
+	<classpathentry kind="lib" path="libs/newt-ogl.jar"/>
+	<classpathentry kind="lib" path="libs/jogl-os-win.jar"/>
+	<classpathentry kind="lib" path="libs/newt-driver-win.jar"/>
+	<classpathentry kind="lib" path="libs/jogl-gldesktop.jar"/>
+	<classpathentry kind="lib" path="libs/jogl-util-gldesktop.jar"/>
+	<classpathentry kind="lib" path="libs/jogl-util.jar"/>
+	<classpathentry kind="lib" path="libs/nativewindow-os-win.jar"/>
+	<classpathentry kind="lib" path="libs/nativewindow-os-x11.jar"/>
+	<classpathentry kind="lib" path="libs/jogl-glu-gldesktop.jar"/>
+	<classpathentry kind="lib" path="libs/nativewindow-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="libs/newt-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="libs/jogl-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="libs/nativewindow-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="libs/newt-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="libs/jogl-natives-windows-i586.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
