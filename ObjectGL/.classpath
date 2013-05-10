@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/gluegen-rt-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/gluegen-rt-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="lib/gluegen-rt.jar"/>
+	<classpathentry kind="lib" path="lib/jogl-core.jar"/>
+	<classpathentry kind="lib" path="lib/jogl-gldesktop.jar"/>
+	<classpathentry kind="lib" path="lib/jogl-glu-gldesktop.jar"/>
+	<classpathentry kind="lib" path="lib/jogl-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/jogl-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="lib/jogl-os-win.jar"/>
+	<classpathentry kind="lib" path="lib/jogl-util-gldesktop.jar"/>
+	<classpathentry kind="lib" path="lib/jogl-util.jar"/>
+	<classpathentry kind="lib" path="lib/nativewindow-core.jar"/>
+	<classpathentry kind="lib" path="lib/nativewindow-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/nativewindow-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="lib/nativewindow-os-win.jar"/>
+	<classpathentry kind="lib" path="lib/nativewindow-os-x11.jar"/>
+	<classpathentry kind="lib" path="lib/newt-core.jar"/>
+	<classpathentry kind="lib" path="lib/newt-driver-win.jar"/>
+	<classpathentry kind="lib" path="lib/newt-natives-windows-amd64.jar"/>
+	<classpathentry kind="lib" path="lib/newt-natives-windows-i586.jar"/>
+	<classpathentry kind="lib" path="lib/newt-ogl.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
