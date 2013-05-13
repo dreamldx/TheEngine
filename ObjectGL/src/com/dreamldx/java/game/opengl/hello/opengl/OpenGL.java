@@ -15,4 +15,8 @@ public class OpenGL {
 	public GL getGL() {
 		return gl;
 	}
+	
+	public void printError() {
+		System.out.println("Error Code: " + gl.getGL2().glGetError());
+	}
 }
