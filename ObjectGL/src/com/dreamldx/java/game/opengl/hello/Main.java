@@ -3,12 +3,12 @@ package com.dreamldx.java.game.opengl.hello;
 import javax.media.opengl.GLCapabilities;
 import javax.media.opengl.GLProfile;
 
-import com.dreamldx.java.game.opengl.hello.opengl.OpenGL;
 import com.dreamldx.java.game.opengl.hello.render.Renderer;
 import com.jogamp.newt.Display;
 import com.jogamp.newt.NewtFactory;
 import com.jogamp.newt.Screen;
 import com.jogamp.newt.opengl.GLWindow;
+import com.jogamp.opengl.util.FPSAnimator;
 
 public class Main {
 
@@ -27,10 +27,12 @@ public class Main {
 		 GameWindow game = new GameWindow(glWindow);
 		 @SuppressWarnings("unused")
 		 Renderer renderer = new Renderer(glWindow);
-		 OpenGL.INSTANCE.create(glWindow);
 		 
+		 glWindow.setAnimator(new FPSAnimator(2, true));
 		 glWindow.setSize(1024, 768);
 		 glWindow.setVisible(true);
+		 
+		 
 		 
 		 game.run();
 		 

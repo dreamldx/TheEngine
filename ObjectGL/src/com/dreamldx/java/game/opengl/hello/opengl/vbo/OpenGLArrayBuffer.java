@@ -1,11 +1,13 @@
-package com.dreamldx.java.game.opengl.hello.opengl;
+package com.dreamldx.java.game.opengl.hello.opengl.vbo;
 
 import java.nio.Buffer;
 
 import javax.media.opengl.GL;
 import javax.media.opengl.GL2;
 
-public class OpenGLArrayBuffer extends OpenGLBuffer {
+import com.dreamldx.java.game.opengl.hello.opengl.OpenGL;
+
+public abstract class OpenGLArrayBuffer extends OpenGLBuffer {
 	int count = 0;
 	
 	public OpenGLArrayBuffer() {
@@ -16,8 +18,8 @@ public class OpenGLArrayBuffer extends OpenGLBuffer {
 		super.bind(GL.GL_ARRAY_BUFFER);
 	}
 	
-	public void data(Buffer buf, int usage) {
-		super.data(GL.GL_ARRAY_BUFFER, buf, usage);
+	protected void data(Buffer buf, int usage, int size, int type) {
+		super.data(GL.GL_ARRAY_BUFFER, buf, usage, size, type);
 		count = buf.capacity()/2;
 	}
 	
